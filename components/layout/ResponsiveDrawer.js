@@ -1,5 +1,5 @@
-import CustomAppBar from "@/layout/CustomAppBar";
-import CustomDrawer from "@/layout/CustomDrawer";
+import CustomAppBar from "@layout/CustomAppBar";
+import CustomDrawer from "@layout/CustomDrawer";
 import React from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { makeStyles } from "@material-ui/core/styles";

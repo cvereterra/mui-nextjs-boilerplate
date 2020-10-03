@@ -7,7 +7,7 @@ export default function Index() {
       <Head>
         <title>Index</title>
       </Head>
-      <Typography>Index. Content goes here!</Typography>;
+      <Typography>Index. Content goes here!</Typography>
     </>
   );
 }
