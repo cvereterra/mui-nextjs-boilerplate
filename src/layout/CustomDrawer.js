@@ -16,7 +16,7 @@ import { makeStyles, useTheme } from "@material-ui/core/styles";
 
 const CustomDrawer = ({
   classes,
-  mobileOpen,
+  isDrawerOpen,
   handleDrawerToggle,
   ...props
 }) => {
@@ -79,7 +79,7 @@ const CustomDrawer = ({
           container={container}
           variant="temporary"
           anchor={theme.direction === "rtl" ? "right" : "left"}
-          open={mobileOpen}
+          open={isDrawerOpen}
           onOpen={handleDrawerToggle}
           onClose={handleDrawerToggle}
           classes={{

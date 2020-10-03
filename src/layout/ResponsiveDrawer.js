@@ -41,10 +41,10 @@ const useStyles = makeStyles((theme) => ({
 
 function ResponsiveDrawer({ children }) {
   const classes = useStyles();
-  const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [isDrawerOpen, setDrawerOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
-    setMobileOpen(!mobileOpen);
+    setDrawerOpen(!isDrawerOpen);
   };
 
   return (
@@ -56,7 +56,7 @@ function ResponsiveDrawer({ children }) {
       ></CustomAppBar>
       <CustomDrawer
         classes={classes}
-        mobileOpen={mobileOpen}
+        isDrawerOpen={isDrawerOpen}
         handleDrawerToggle={handleDrawerToggle}
       ></CustomDrawer>
 
