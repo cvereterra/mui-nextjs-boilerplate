@@ -1,25 +1,17 @@
-# Next.js example
+# Next.js Material-UI template
+
+Boilerplate code to get up and running with a Next.js application that uses a Material-UI responsive drawer.
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+Clone the repo, install it and run:
 
 ```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/nextjs
-cd nextjs
+yarn
+yarn dev
 ```
 
-Install it and run:
-
-```sh
-npm install
-npm run dev
-```
-
-or:
-
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui-org/material-ui/tree/master/examples/nextjs)
-
-## The idea behind the example
+## Related projects
 
 [Next.js](https://github.com/zeit/next.js) is a framework for server-rendered React apps.
+[Material-UI](https://github.com/mui-org/material-ui) React components for faster and simpler web development.
